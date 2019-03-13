@@ -33,4 +33,8 @@ public class SongApi {
 
 
     }
+
+    public void setSongDao(ISongDao songDao) {
+        this.songDao = songDao;
+    }
 }

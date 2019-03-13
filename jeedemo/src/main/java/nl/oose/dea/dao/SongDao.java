@@ -2,7 +2,7 @@ package nl.oose.dea.dao;
 
 import nl.oose.dea.domain.Song;
 
-public class songDao implements ISongDao {
+public class SongDao implements ISongDao {
     @Override
     public Song retrieveSong(int id) {
         Song song = new Song();
