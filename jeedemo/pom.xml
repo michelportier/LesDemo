@@ -31,14 +31,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- deze dependency is met resources niet meer nodig, voeg de driver toe
-        aan de tomee/lib map
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
-        </dependency>
-        -->
     </dependencies>
     <build>
         <finalName>jeedemo</finalName>
