@@ -6,15 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2396385f-86bf-46b7-bf97-a877e0e8747a" name="Default Changelist" comment="Datasources toegevoegd&#10;zie https://www.codejava.net/servers/tomcat/configuring-jndi-datasource-for-database-connection-pooling-in-tomcat">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nl/oose/dea/domain/User.java" afterDir="false" />
+    <list default="true" id="2396385f-86bf-46b7-bf97-a877e0e8747a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/michelportier/LesDemo&#10;&#10;# Conflicts:&#10;#&#9;jeedemo/pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/OnzinApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/UserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +20,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="411">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/UserApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="227">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -113,9 +119,9 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/UserApi.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -268,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553178675684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553179154770" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -506,7 +512,7 @@
       <workItem from="1552563802859" duration="912000" />
       <workItem from="1552570233731" duration="1156000" />
       <workItem from="1552998841409" duration="494000" />
-      <workItem from="1553086488163" duration="13970000" />
+      <workItem from="1553086488163" duration="14430000" />
     </task>
     <task id="LOCAL-00001" summary="Nog een poging">
       <created>1552491905971</created>
@@ -529,7 +535,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552570953264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Datasources toegevoegd&#10;zie https://www.codejava.net/servers/tomcat/configuring-jndi-datasource-for-database-connection-pooling-in-tomcat">
+      <created>1553178704662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553178704662</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aangepaste POM">
+      <created>1553179026090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553179026090</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aangepaste POM">
+      <created>1553179071568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553179071568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -559,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33819000" />
+    <option name="totallyTimeSpent" value="34279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,6 +599,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="125" width="1495" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33172747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -589,13 +617,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32913387" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3234375" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32284543" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3269494" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3351573" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.33242133" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -618,7 +646,9 @@
     <MESSAGE value="Met juiste deps" />
     <MESSAGE value="Extra test" />
     <MESSAGE value="Datasources toegevoegd&#10;zie https://www.codejava.net/servers/tomcat/configuring-jndi-datasource-for-database-connection-pooling-in-tomcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datasources toegevoegd&#10;zie https://www.codejava.net/servers/tomcat/configuring-jndi-datasource-for-database-connection-pooling-in-tomcat" />
+    <MESSAGE value="Aangepaste POM" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/michelportier/LesDemo&#10;&#10;# Conflicts:&#10;#&#9;jeedemo/pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/michelportier/LesDemo&#10;&#10;# Conflicts:&#10;#&#9;jeedemo/pom.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/JAXRSConfiguration.java" />
@@ -715,16 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/UserApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/SongDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -756,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -791,10 +804,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/oose/dea/rest/UserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
