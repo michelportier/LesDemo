@@ -56,4 +56,9 @@ public class UserDao implements IUserDao {
 
         return user;
     }
+
+    // Mainly used for testing
+    public void setDataSource(DataSource ds){
+        this.dataSource = ds;
+    }
 }
